@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
     plugins: [react()],
-    base: 'nutriwheel-ai--1-/',
+    
     define: {
 
       // Allows usage of process.env.API_KEY in the browser for this specific app structure
